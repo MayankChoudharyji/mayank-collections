@@ -1,0 +1,220 @@
+/*content css start */
+.content h1:first-child{
+    text-align: center;
+    margin: 18px;
+    padding: 8px;
+    font-family: cursive;
+    color: rgb(1, 1, 1);
+    text-shadow: 3px 5px 3px violet;
+    font-size: 50px;
+}
+.hoddies {
+    width: 98%;
+    height: 300px;
+    padding-top: 48px;
+    margin-left: 17px;
+    padding-bottom: 9px;
+    
+}
+.hoddies div{
+    display: inline-block;
+    width: 23%;
+    height: 300px;
+    padding: 11px;
+   
+    color: blue;
+    font-size: 16px;
+    text-decoration: none;
+}
+.name{
+    position: absolute;
+    color: black;
+ margin: -17px 0px 0px 145px;
+}
+.hoddies img{
+    width:80%;
+    height: 80%;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out ;
+    
+}
+.hoddies img:hover{
+    transform: scale(1.2);
+}
+.del{
+    color: gray;
+}
+.content h1{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(1, 1, 1);
+    text-shadow: 3px 5px 3px violet;
+    font-size: 50px;
+    margin-top: 65px;
+    padding: 8px;
+
+}
+.jacket{
+    width: 100%;
+}
+
+
+.jacket div{
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 16px;
+    width: 23%;
+    height: 300px;
+}
+.jacket img{
+    width: 80%;
+    height: 80%;
+    transition: transform 0.5s ease-in-out;
+}
+.jacket img:hover{
+    transform: scale(1.3);
+}
+
+
+
+#more{
+    margin-left:43% ;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 23px;
+    
+}
+#more:hover{
+    background-color: deeppink;
+   
+}
+#more a{
+    text-decoration: none;
+}
+#more a:hover{
+    color: white;
+}
+/* footer css start*/
+.foot{
+   background-color: black; 
+   width: 100%;
+   height: 360px;
+  margin-top: 5px;
+  
+}
+.fut{
+    width: 100%;
+    height: 300px;
+}
+
+.fut div{
+    display: inline-block;
+    color: white;
+    width:17% ;
+}
+#impor{
+   position: relative;
+   left: 226px;
+   color: gray;
+   top: 4px;
+
+}
+#impor ul li{
+    padding: 0 0 9px 0;
+}
+#impor ul li a{
+    color: white;
+    font-family: cursive;
+}
+#logo{
+    width: 200px;
+ position: relative;
+ bottom: 160px;
+ left: 70px;
+ font-family: cursive;
+ font-size: 25px;
+ color: white;
+}
+#logo h3{
+ margin-left: 72px;
+ margin-top: -7px;
+ font-size:20px ;
+
+}
+#logo h2:hover{
+    animation: logo 1.6s infinite alternate  ;
+    transition: transform 1s ease-in-out 1s;
+}
+#logo h3:hover{
+    animation: logo 1.6s infinite alternate  ;
+    transition: transform 1s ease-in-out 1s;
+}
+@keyframes logo{
+    0%{
+        color: darkorange;
+    }
+    50%{
+      color: deeppink;
+    }
+   
+}
+#fpic1{
+position: relative;
+left: 9px;
+top: 2px;
+width: 400px;
+   height: 250px;
+}
+#fpic1:hover{
+    animation: blink1 1.6s infinite alternate;
+    transition: transform 1s ease-in-out 1s;
+    
+}
+#fpic2:hover{
+    animation: blink1 1.6s infinite alternate;
+    transition: transform 1s ease-in-out 1s;
+    
+}
+@keyframes blink1{
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100%{opacity: 0;}
+}
+#fpic2{
+    
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 230px;
+    transform: scaleX(-1);
+}
+.last div{
+    display: inline-block;
+}
+.copy{
+    color: white;
+    margin-left: 300px;
+}
+.social{
+    color: gray;
+   position: absolute;
+ margin-right:29px;
+  right: 200px;
+}
+.social a{
+
+    padding: 4px;
+    color: white;
+}
+
+
+
+/* footer css end*/

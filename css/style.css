@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.banner {
+    width:100%;
+    height: 700px;
+}
+
+header ul {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+
+}
+header ul li a{
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+    font-size: 28px;
+
+}
+
+header ul li {
+    display: inline-block;
+    font-size: 21px;
+    padding: 4px;
+    letter-spacing: 2px;
+}
+
+header ul li a:hover {
+    cursor: pointer;
+   text-decoration: underline;
+   
+
+}
+
+
+
+#blink:hover {
+    animation: blink 2s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+        color: crimson;
+    }
+
+    50% {
+        opacity: 0.7;
+        color: gold;
+    }
+
+    100%{opacity: 0;
+    color:rgb(236, 26, 57);
+    }
+  
+   
+}
+
+
+
+#fa1 {
+    margin-left: 5px;
+   position: relative;
+   top: 4px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    font-size: 24px;
+    color: black;
+}
+#fname{
+    height: 20px;
+    position: relative;
+    bottom: 4px;
+    
+}
+
+.head {
+
+    position: absolute;
+    top: 12px;
+    left: 30px;
+}
+
+.head h2 {
+    color: rgb(230, 154, 47);
+    font-family: cursive;
+    font-size: 45px;
+}
+
+.head h3 {
+
+    position: relative;
+    bottom: 18px;
+    left: 85px;
+    color: white;
+}
+
+.line {
+    position: absolute;
+    top: 117px;
+    left: 343px;
+    width: 400px;
+    font-size: 20px;
+
+}
+
+#line1 {
+    font-family: 'Times New Roman', Times, serif;
+    animation: line1 infinite;
+    animation-duration: 5s;
+    color: cadetblue;
+    white-space: nowrap;
+    overflow: hidden;
+    text-shadow: 3px 3px 3px rgb(68, 65, 65);
+}
+
+@keyframes line1 {
+    0% {
+        width: 0ch;
+    }
+
+    50% {
+        width: 20ch;
+    }
+
+}
+
+#line2 {
+    color: darkseagreen;
+    width: 500px;
+    font-size: 25px;
+    text-shadow: 2px 2px rgb(238, 213, 73);
+    animation-name: line2;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    transition: transform 1s ease-in-out 0s ;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes line2 {
+    0% {
+        width: 48ch;
+    }
+
+    100% {
+        width: 0ch;
+    }
+}
